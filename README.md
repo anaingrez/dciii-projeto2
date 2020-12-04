@@ -1,3 +1,3 @@
 # dciii-projeto2
 
-* 	[Link](anaingrez.github.io/dciii-projeto2)
+* 	[Link](https://anaingrez.github.io/dciii-projeto2/)
