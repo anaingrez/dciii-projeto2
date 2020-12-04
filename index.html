@@ -10,6 +10,19 @@
 </head>
 
 <body>
+    <script>
+        let numberOfImages = 50;
+        let time = 300;
+        let index = 1;
+
+        function changeImage() {
+            document.slider.src = `fotos/f_${index}.png`;
+            if (++index > numberOfImages)
+                index = 1;
+            setTimeout('changeImage()', time);
+        }
+        window.onload = changeImage;
+    </script>
     <section class="parent">
         <section class="child" id="s1">
             <h1 id="titulo">Our skin is for life, not for likes.</h1>
