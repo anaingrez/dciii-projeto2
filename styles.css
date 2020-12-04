@@ -8,6 +8,7 @@ body {
   font-family: "Roboto", "Roboto Condensed";
   /* background-color: deeppink; */
   color: white;
+  overflow: hidden;
 }
 
 .parent{
@@ -27,13 +28,16 @@ ul {
 
 li a {
     display: block;
-    width: 60px;
     font-weight: 100;
+  
   }
 
 li {
-  border-bottom: 7px solid white;
   margin-bottom: 30px;
+  border-bottom: 7px solid white;
+  width: 60px;
+  max-width: auto;
+  transition: width 1s;
 }
 
 a {
@@ -43,6 +47,11 @@ a {
   color: white;
   font-family: "Roboto";
 }
+
+li:hover {
+  width: 150px;
+}
+
 
 #titulo {
     writing-mode: tb-rl;
