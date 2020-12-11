@@ -95,9 +95,20 @@ h1 {
 
 .cara {
       max-width: 63vh;
-      min-width: 100px;
+      min-width: 300px;
       width: 100%;
       height: auto;
+}
+
+.video{
+      max-width: 63vh;
+      min-width: 300px;
+      overflow: hidden;
+}
+
+video {
+  width: 108.8%;
+  height: auto;
 }
 
 .carap {
