@@ -97,7 +97,6 @@ h1 {
       max-width: 63vh;
       min-width: 300px;
       width: 100%;
-      height: auto;
 }
 
 .video{
@@ -107,8 +106,8 @@ h1 {
 }
 
 video {
-  width: 108.8%;
-  height: auto;
+  width: 100%;
+  height: 100%;
 }
 
 .carap {
@@ -121,6 +120,7 @@ video {
   align-items: center;
   display: flex;
 }
+
 
 figcaption {
   justify-content: center;
