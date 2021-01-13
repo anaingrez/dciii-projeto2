@@ -14,7 +14,7 @@ body {
   font-family: "Roboto", "Roboto Condensed";
   color: white;
   overflow: hidden;
-
+  
   background: linear-gradient(270deg, #c6e5f9, #d1c8e5, #f9d0de, #f5926b, #fcef89);
   background-size: 1000% 1000%;
   -webkit-animation: background 40s ease infinite;
